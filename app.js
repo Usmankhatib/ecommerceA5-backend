@@ -1,7 +1,7 @@
 const express=require('express');
 const cors=require('cors')
 const bcrypt=require('bcrypt');
-const rateLimit=require('Express-rate-limit');
+const rateLimit=require('express-rate-limit');
 const dotenv=require('dotenv');
 const nodemailer=require('nodemailer');
 const helmet=require('helmet');
